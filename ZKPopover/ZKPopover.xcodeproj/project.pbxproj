@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9801E31671BB6500A3E7C7 /* DPModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9801E11671BB6500A3E7C7 /* DPModelVC.m */; };
+		EB9801E41671BB6500A3E7C7 /* DPModelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9801E21671BB6500A3E7C7 /* DPModelVC.xib */; };
+		EBA2638C1670B632009C4DF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA2638B1670B632009C4DF8 /* UIKit.framework */; };
+		EBA2638E1670B632009C4DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA2638D1670B632009C4DF8 /* Foundation.framework */; };
+		EBA263901670B632009C4DF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA2638F1670B632009C4DF8 /* CoreGraphics.framework */; };
+		EBA263961670B632009C4DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA263941670B632009C4DF8 /* InfoPlist.strings */; };
+		EBA263981670B632009C4DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA263971670B632009C4DF8 /* main.m */; };
+		EBA2639C1670B632009C4DF8 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA2639B1670B632009C4DF8 /* DPAppDelegate.m */; };
+		EBA2639E1670B632009C4DF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA2639D1670B632009C4DF8 /* Default.png */; };
+		EBA263A01670B632009C4DF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA2639F1670B632009C4DF8 /* Default@2x.png */; };
+		EBA263A21670B632009C4DF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA263A11670B632009C4DF8 /* Default-568h@2x.png */; };
+		EBA263A51670B632009C4DF8 /* DPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA263A41670B632009C4DF8 /* DPViewController.m */; };
+		EBA263A81670B632009C4DF8 /* DPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA263A61670B632009C4DF8 /* DPViewController.xib */; };
+		EBA263B11670B6FB009C4DF8 /* ZKPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA263AF1670B6FB009C4DF8 /* ZKPopoverVC.m */; };
+		EBA263B21670B6FB009C4DF8 /* ZKPopoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA263B01670B6FB009C4DF8 /* ZKPopoverVC.xib */; };
+		EBA263B41670CFE4009C4DF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA263B31670CFE4009C4DF8 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB9801E01671BB6500A3E7C7 /* DPModelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPModelVC.h; sourceTree = "<group>"; };
+		EB9801E11671BB6500A3E7C7 /* DPModelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPModelVC.m; sourceTree = "<group>"; };
+		EB9801E21671BB6500A3E7C7 /* DPModelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPModelVC.xib; sourceTree = "<group>"; };
+		EBA263871670B632009C4DF8 /* ZKPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA2638B1670B632009C4DF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBA2638D1670B632009C4DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBA2638F1670B632009C4DF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBA263931670B632009C4DF8 /* ZKPopover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZKPopover-Info.plist"; sourceTree = "<group>"; };
+		EBA263951670B632009C4DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBA263971670B632009C4DF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA263991670B632009C4DF8 /* ZKPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZKPopover-Prefix.pch"; sourceTree = "<group>"; };
+		EBA2639A1670B632009C4DF8 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
+		EBA2639B1670B632009C4DF8 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
+		EBA2639D1670B632009C4DF8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBA2639F1670B632009C4DF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBA263A11670B632009C4DF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EBA263A31670B632009C4DF8 /* DPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPViewController.h; sourceTree = "<group>"; };
+		EBA263A41670B632009C4DF8 /* DPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPViewController.m; sourceTree = "<group>"; };
+		EBA263A71670B632009C4DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPViewController.xib; sourceTree = "<group>"; };
+		EBA263AE1670B6FB009C4DF8 /* ZKPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPopoverVC.h; sourceTree = "<group>"; };
+		EBA263AF1670B6FB009C4DF8 /* ZKPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPopoverVC.m; sourceTree = "<group>"; };
+		EBA263B01670B6FB009C4DF8 /* ZKPopoverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKPopoverVC.xib; sourceTree = "<group>"; };
+		EBA263B31670CFE4009C4DF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA263841670B632009C4DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA2638C1670B632009C4DF8 /* UIKit.framework in Frameworks */,
+				EBA2638E1670B632009C4DF8 /* Foundation.framework in Frameworks */,
+				EBA263901670B632009C4DF8 /* CoreGraphics.framework in Frameworks */,
+				EBA263B41670CFE4009C4DF8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA2637C1670B632009C4DF8 = {
+			isa = PBXGroup;
+			children = (
+				EBA263911670B632009C4DF8 /* ZKPopover */,
+				EBA2638A1670B632009C4DF8 /* Frameworks */,
+				EBA263881670B632009C4DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA263881670B632009C4DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA263871670B632009C4DF8 /* ZKPopover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA2638A1670B632009C4DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA263B31670CFE4009C4DF8 /* QuartzCore.framework */,
+				EBA2638B1670B632009C4DF8 /* UIKit.framework */,
+				EBA2638D1670B632009C4DF8 /* Foundation.framework */,
+				EBA2638F1670B632009C4DF8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA263911670B632009C4DF8 /* ZKPopover */ = {
+			isa = PBXGroup;
+			children = (
+				EBA2639A1670B632009C4DF8 /* DPAppDelegate.h */,
+				EBA2639B1670B632009C4DF8 /* DPAppDelegate.m */,
+				EBA263A31670B632009C4DF8 /* DPViewController.h */,
+				EBA263A41670B632009C4DF8 /* DPViewController.m */,
+				EBA263A61670B632009C4DF8 /* DPViewController.xib */,
+				EBA263AE1670B6FB009C4DF8 /* ZKPopoverVC.h */,
+				EBA263AF1670B6FB009C4DF8 /* ZKPopoverVC.m */,
+				EBA263B01670B6FB009C4DF8 /* ZKPopoverVC.xib */,
+				EBA263921670B632009C4DF8 /* Supporting Files */,
+				EB9801E01671BB6500A3E7C7 /* DPModelVC.h */,
+				EB9801E11671BB6500A3E7C7 /* DPModelVC.m */,
+				EB9801E21671BB6500A3E7C7 /* DPModelVC.xib */,
+			);
+			path = ZKPopover;
+			sourceTree = "<group>";
+		};
+		EBA263921670B632009C4DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA263931670B632009C4DF8 /* ZKPopover-Info.plist */,
+				EBA263941670B632009C4DF8 /* InfoPlist.strings */,
+				EBA263971670B632009C4DF8 /* main.m */,
+				EBA263991670B632009C4DF8 /* ZKPopover-Prefix.pch */,
+				EBA2639D1670B632009C4DF8 /* Default.png */,
+				EBA2639F1670B632009C4DF8 /* Default@2x.png */,
+				EBA263A11670B632009C4DF8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA263861670B632009C4DF8 /* ZKPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA263AB1670B632009C4DF8 /* Build configuration list for PBXNativeTarget "ZKPopover" */;
+			buildPhases = (
+				EBA263831670B632009C4DF8 /* Sources */,
+				EBA263841670B632009C4DF8 /* Frameworks */,
+				EBA263851670B632009C4DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKPopover;
+			productName = ZKPopover;
+			productReference = EBA263871670B632009C4DF8 /* ZKPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA2637E1670B632009C4DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diaspark Infotech";
+			};
+			buildConfigurationList = EBA263811670B632009C4DF8 /* Build configuration list for PBXProject "ZKPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBA2637C1670B632009C4DF8;
+			productRefGroup = EBA263881670B632009C4DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA263861670B632009C4DF8 /* ZKPopover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA263851670B632009C4DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA263961670B632009C4DF8 /* InfoPlist.strings in Resources */,
+				EBA2639E1670B632009C4DF8 /* Default.png in Resources */,
+				EBA263A01670B632009C4DF8 /* Default@2x.png in Resources */,
+				EBA263A21670B632009C4DF8 /* Default-568h@2x.png in Resources */,
+				EBA263A81670B632009C4DF8 /* DPViewController.xib in Resources */,
+				EBA263B21670B6FB009C4DF8 /* ZKPopoverVC.xib in Resources */,
+				EB9801E41671BB6500A3E7C7 /* DPModelVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA263831670B632009C4DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA263981670B632009C4DF8 /* main.m in Sources */,
+				EBA2639C1670B632009C4DF8 /* DPAppDelegate.m in Sources */,
+				EBA263A51670B632009C4DF8 /* DPViewController.m in Sources */,
+				EBA263B11670B6FB009C4DF8 /* ZKPopoverVC.m in Sources */,
+				EB9801E31671BB6500A3E7C7 /* DPModelVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBA263941670B632009C4DF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA263951670B632009C4DF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBA263A61670B632009C4DF8 /* DPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA263A71670B632009C4DF8 /* en */,
+			);
+			name = DPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA263A91670B632009C4DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EBA263AA1670B632009C4DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBA263AC1670B632009C4DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZKPopover/ZKPopover-Prefix.pch";
+				INFOPLIST_FILE = "ZKPopover/ZKPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBA263AD1670B632009C4DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Patole (3CC7LK423R)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZKPopover/ZKPopover-Prefix.pch";
+				INFOPLIST_FILE = "ZKPopover/ZKPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C36E4CA2-D1E5-4DA4-9576-F3333D3345E9";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA263811670B632009C4DF8 /* Build configuration list for PBXProject "ZKPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA263A91670B632009C4DF8 /* Debug */,
+				EBA263AA1670B632009C4DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA263AB1670B632009C4DF8 /* Build configuration list for PBXNativeTarget "ZKPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA263AC1670B632009C4DF8 /* Debug */,
+				EBA263AD1670B632009C4DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA2637E1670B632009C4DF8 /* Project object */;
+}
